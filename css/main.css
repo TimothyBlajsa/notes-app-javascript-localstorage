@@ -1,9 +1,13 @@
+@font-face {
+    font-family: lofi;
+    src: url(/fonts/Nimbus-Sans-D-OT-Ultra-Light_32757.ttf);
+}
+
 html,
 body {
     height: 100%;
     margin: 0;
     background-color: rgb(41, 41, 41);
-    font-family: monospace;
 }
 
 .notes {
@@ -90,6 +94,7 @@ body {
     caret-color: white;
     background-color: rgb(41, 41, 41);
     color: white;
+    font-family: lofi;
 }
 
 .notes__title {
