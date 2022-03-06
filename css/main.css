@@ -2,6 +2,8 @@ html,
 body {
     height: 100%;
     margin: 0;
+    background-color: rgb(41, 41, 41);
+    font-family: monospace;
 }
 
 .notes {
@@ -14,7 +16,7 @@ body {
 }
 
 .notes__sidebar {
-    border-right: 2px solid #dddddd;
+    border-right: 2px solid rgb(24, 24, 24);
     flex-shrink: 0;
     overflow-y: auto;
     padding: 1em;
@@ -22,7 +24,7 @@ body {
 }
 
 .notes__add {
-    background: #009578;
+    background: grey;
     border: none;
     border-radius: 7px;
     color: #ffffff;
@@ -35,7 +37,7 @@ body {
 }
 
 .notes__add:hover {
-    background: #00af8c;
+    background: darkgray;
 }
 
 .notes__list-item {
@@ -43,9 +45,10 @@ body {
 }
 
 .notes__list-item--selected {
-    background: #eeeeee;
+    background: gray;
     border-radius: 7px;
     font-weight: bold;
+    color: white;
 }
 
 .notes__small-title,
@@ -67,6 +70,11 @@ body {
     text-align: right;
 }
 
+.notes__small-title,
+.notes__small-body {
+    color: gainsboro;
+}
+
 .notes__preview {
     display: flex;
     flex-direction: column;
@@ -79,6 +87,9 @@ body {
     border: none;
     outline: none;
     width: 100%;
+    caret-color: white;
+    background-color: rgb(41, 41, 41);
+    color: white;
 }
 
 .notes__title {
