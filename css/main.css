@@ -111,3 +111,55 @@ body {
     margin-top: 2em;
     resize: none;
 }
+
+@media only screen and (max-width: 414px) {
+    .notes__sidebar{
+        width: 100px;
+    }
+    .notes__add{
+        font-size: 14px;
+    }
+    .notes__small-title{
+        font-size: 12px;
+    }
+    .notes__small-body{
+        font-size: 9px;
+        overflow: hidden;
+    }
+    .notes__small-updated{
+        font-size: 8px;
+    }
+
+    .notes__title{
+        font-size: 24px;
+    }
+    .notes__body{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .notes__sidebar{
+        width: 100px;
+    }
+    .notes__add{
+        font-size: 14px;
+    }
+    .notes__small-title{
+        font-size: 12px;
+    }
+    .notes__small-body{
+        font-size: 9px;
+        overflow: hidden;
+    }
+    .notes__small-updated{
+        font-size: 7px;
+    }
+
+    .notes__title{
+        font-size: 16px;
+    }
+    .notes__body{
+        font-size: 12px;
+    }
+}
