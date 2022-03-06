@@ -77,6 +77,8 @@ body {
 .notes__small-title,
 .notes__small-body {
     color: gainsboro;
+    font-family: lofi;
+    font-weight: bolder;
 }
 
 .notes__preview {
